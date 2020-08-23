@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEDB4B0224F2AB3C00EEF170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB4B0124F2AB3C00EEF170 /* AppDelegate.swift */; };
+		BEDB4B0424F2AB3C00EEF170 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB4B0324F2AB3C00EEF170 /* SceneDelegate.swift */; };
+		BEDB4B0624F2AB3C00EEF170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB4B0524F2AB3C00EEF170 /* ViewController.swift */; };
+		BEDB4B0924F2AB3C00EEF170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDB4B0724F2AB3C00EEF170 /* Main.storyboard */; };
+		BEDB4B0B24F2AB4000EEF170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDB4B0A24F2AB4000EEF170 /* Assets.xcassets */; };
+		BEDB4B0E24F2AB4000EEF170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDB4B0C24F2AB4000EEF170 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEDB4AFE24F2AB3C00EEF170 /* HWS Project 4 Easy Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWS Project 4 Easy Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDB4B0124F2AB3C00EEF170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEDB4B0324F2AB3C00EEF170 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEDB4B0524F2AB3C00EEF170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEDB4B0824F2AB3C00EEF170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEDB4B0A24F2AB4000EEF170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEDB4B0D24F2AB4000EEF170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEDB4B0F24F2AB4000EEF170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEDB4AFB24F2AB3C00EEF170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEDB4AF524F2AB3C00EEF170 = {
+			isa = PBXGroup;
+			children = (
+				BEDB4B0024F2AB3C00EEF170 /* HWS Project 4 Easy Browser */,
+				BEDB4AFF24F2AB3C00EEF170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEDB4AFF24F2AB3C00EEF170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB4AFE24F2AB3C00EEF170 /* HWS Project 4 Easy Browser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEDB4B0024F2AB3C00EEF170 /* HWS Project 4 Easy Browser */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB4B0124F2AB3C00EEF170 /* AppDelegate.swift */,
+				BEDB4B0324F2AB3C00EEF170 /* SceneDelegate.swift */,
+				BEDB4B0524F2AB3C00EEF170 /* ViewController.swift */,
+				BEDB4B0724F2AB3C00EEF170 /* Main.storyboard */,
+				BEDB4B0A24F2AB4000EEF170 /* Assets.xcassets */,
+				BEDB4B0C24F2AB4000EEF170 /* LaunchScreen.storyboard */,
+				BEDB4B0F24F2AB4000EEF170 /* Info.plist */,
+			);
+			path = "HWS Project 4 Easy Browser";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEDB4AFD24F2AB3C00EEF170 /* HWS Project 4 Easy Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDB4B1224F2AB4000EEF170 /* Build configuration list for PBXNativeTarget "HWS Project 4 Easy Browser" */;
+			buildPhases = (
+				BEDB4AFA24F2AB3C00EEF170 /* Sources */,
+				BEDB4AFB24F2AB3C00EEF170 /* Frameworks */,
+				BEDB4AFC24F2AB3C00EEF170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HWS Project 4 Easy Browser";
+			productName = "HWS Project 4 Easy Browser";
+			productReference = BEDB4AFE24F2AB3C00EEF170 /* HWS Project 4 Easy Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEDB4AF624F2AB3C00EEF170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Bochkarov Valentyn";
+				TargetAttributes = {
+					BEDB4AFD24F2AB3C00EEF170 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BEDB4AF924F2AB3C00EEF170 /* Build configuration list for PBXProject "HWS Project 4 Easy Browser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEDB4AF524F2AB3C00EEF170;
+			productRefGroup = BEDB4AFF24F2AB3C00EEF170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEDB4AFD24F2AB3C00EEF170 /* HWS Project 4 Easy Browser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEDB4AFC24F2AB3C00EEF170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDB4B0E24F2AB4000EEF170 /* LaunchScreen.storyboard in Resources */,
+				BEDB4B0B24F2AB4000EEF170 /* Assets.xcassets in Resources */,
+				BEDB4B0924F2AB3C00EEF170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEDB4AFA24F2AB3C00EEF170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDB4B0624F2AB3C00EEF170 /* ViewController.swift in Sources */,
+				BEDB4B0224F2AB3C00EEF170 /* AppDelegate.swift in Sources */,
+				BEDB4B0424F2AB3C00EEF170 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEDB4B0724F2AB3C00EEF170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDB4B0824F2AB3C00EEF170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEDB4B0C24F2AB4000EEF170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDB4B0D24F2AB4000EEF170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEDB4B1024F2AB4000EEF170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEDB4B1124F2AB4000EEF170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEDB4B1324F2AB4000EEF170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGASMDNUX4;
+				INFOPLIST_FILE = "HWS Project 4 Easy Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "valentinindigo.HWS-Project-4-Easy-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEDB4B1424F2AB4000EEF170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGASMDNUX4;
+				INFOPLIST_FILE = "HWS Project 4 Easy Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "valentinindigo.HWS-Project-4-Easy-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEDB4AF924F2AB3C00EEF170 /* Build configuration list for PBXProject "HWS Project 4 Easy Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDB4B1024F2AB4000EEF170 /* Debug */,
+				BEDB4B1124F2AB4000EEF170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDB4B1224F2AB4000EEF170 /* Build configuration list for PBXNativeTarget "HWS Project 4 Easy Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDB4B1324F2AB4000EEF170 /* Debug */,
+				BEDB4B1424F2AB4000EEF170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEDB4AF624F2AB3C00EEF170 /* Project object */;
+}

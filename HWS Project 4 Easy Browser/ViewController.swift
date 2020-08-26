@@ -12,7 +12,7 @@ import WebKit
 class ViewController: UIViewController, WKNavigationDelegate {
     var webView: WKWebView!
     var progressView: UIProgressView!
-    var websites = ["apple.com", "hackingwithswift.com"]
+    var websites = ["hackingwithswift.com", "apple.com"]
     
     override func loadView() {
         webView = WKWebView()
@@ -32,7 +32,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         toolbarItems = [progressButton, spacer, refresh]
         navigationController?.isToolbarHidden = false
         
-        let url = URL(string: "https://" + websites[0])!
+        let url = URL(string: "https://" + websites[1])!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
         webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
@@ -65,8 +65,13 @@ class ViewController: UIViewController, WKNavigationDelegate {
                     return
                 }
             }
+            let acAccess = UIAlertController(title: "Access denied", message: "Restricted resource", preferredStyle: .alert)
+                             let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                                 acAccess.addAction(okAction)
+             //                    print(website)
+                                 present(acAccess, animated: true)
         }
-
+ 
         decisionHandler(.cancel)
     }
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {

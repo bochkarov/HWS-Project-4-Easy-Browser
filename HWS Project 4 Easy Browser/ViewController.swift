@@ -12,6 +12,7 @@ import WebKit
 class ViewController: UIViewController, WKNavigationDelegate {
     var webView: WKWebView!
     var progressView: UIProgressView!
+    var homePage: String?
     var websites = ["hackingwithswift.com", "apple.com"]
     
     override func loadView() {
@@ -22,6 +23,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Open", style: .plain, target: self, action: #selector(openTapped))
         progressView = UIProgressView(progressViewStyle: .default)
         progressView.sizeToFit()
@@ -34,9 +36,12 @@ class ViewController: UIViewController, WKNavigationDelegate {
 
         toolbarItems = [progressButton, spacer, back, forward, spacer, refresh]
         navigationController?.isToolbarHidden = false
+        if let openPage = homePage {
+            let url = URL(string: "https://www." + openPage)!
+                  webView.load(URLRequest(url: url))
+        }
         
-        let url = URL(string: "https://" + websites[1])!
-        webView.load(URLRequest(url: url))
+      
         webView.allowsBackForwardNavigationGestures = true
         webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
 
